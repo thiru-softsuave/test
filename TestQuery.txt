@@ -1,0 +1,21 @@
+
+Display		RET		Retargeting		13
+Display		Prospecting	Prospecting		13
+Display		Co-op		Co-op			13
+Display		CRM		CRM			13
+Display		FBX		Facebook		13
+Display		Mobile		Mobile			13
+Display		INS		Instagram		13
+Display		PIN		Pinterest		13
+Display		VID		Video			13
+Search		IMP		Implementation Fee	35
+Search		MAN		Management Fee		73
+Search		MED		Media Spend		36
+Search		MON		Monitor Service		37
+Search		MIN		Monthly Minimum		38
+Search		OVG		Overage			39
+Search		SCR		Scraping Fee		72
+
+
+INSERT INTO channel_fee_type_map(channel, fee_type_code, description, fee_type_id)
+    VALUES (?, ?, ?, ?);
